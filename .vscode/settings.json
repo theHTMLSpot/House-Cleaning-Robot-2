@@ -1,1 +1,36 @@
-{"editor.tabSize": 2}
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.autoAddFileAssociations": true,
+    "C_Cpp.formatting": "Default",
+    "cmake.configureOnOpen": true,
+    "idf.port": "/dev/ttyUSB0",  // Change this to match your ESP32's port
+    "idf.baudRate": 115200,
+    "idf.saveBeforeBuild": true,
+    "idf.pythonBinPath": "/usr/bin/python3",  // Path to Python if needed
+    "idf.flashType": "UART",
+    "idf.adapterSpeed": 2000,
+    "terminal.integrated.scrollback": 5000,
+    "files.associations": {
+        "*.h": "cpp",
+        "*.c": "c",
+        "*.cpp": "cpp",
+        "*.ino": "cpp"  // For Arduino files if using Arduino core
+    },
+    "extensions.ignoreRecommendations": false,
+    "debug.console.clearBeforeReplStart": true,
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.renderWhitespace": "all"
+}
